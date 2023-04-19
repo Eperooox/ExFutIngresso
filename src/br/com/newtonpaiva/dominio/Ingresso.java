@@ -6,29 +6,22 @@ public class Ingresso
     public Double valor;
 
     public Double getValor()
-    {
-        return valor;
-    }
+    {return valor;}
 
     public void setValor(Double valor)
-    {
-        this.valor = valor;
-    }
-    public Integer NumeroIngresso;
+    {this.valor = valor;}
 
-    public Integer getNumeroIngresso() {
-        return NumeroIngresso;
-    }
+    public Integer numeroIngresso;
 
-    public void setNumeroIngresso(Integer numeroIngresso) {
-        this.NumeroIngresso = numeroIngresso;
-    }
+    public Integer getNumeroIngresso()
+    {return numeroIngresso;}
 
+    public void setNumeroIngresso(Integer numeroIngresso)
+    {this.numeroIngresso = numeroIngresso;}
 
-    public String getNomeJogo() {        return nomeJogo;
-    }
+    public String getNomeJogo()
+    {return nomeJogo;}
 
-    public void setNomeJogo(String nomeJogo) {
-        this.nomeJogo = nomeJogo;
-    }
+    public void setNomeJogo(String nomeJogo)
+    {this.nomeJogo = nomeJogo;}
 }
