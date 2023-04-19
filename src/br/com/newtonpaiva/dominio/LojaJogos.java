@@ -16,7 +16,7 @@ public class LojaJogos
         in.setNomeJogo(nomeJogo);
         in.setValor(valorJogo);
         in.setNumeroIngresso(NumIngresso);
-        pe.setValorPedido();
+        pe.setValorPedido(ValorPedido);
 
         JOptionPane.showMessageDialog(null, "Pedido feito para " + cl.getNome()
                 + "\n" + in.getValor() + ": " + in.getNomeJogo() + "\n Valor: " + pe.);

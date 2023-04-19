@@ -3,12 +3,18 @@ package br.com.newtonpaiva.dominio;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pedido extends Ingresso
-{
+public class Pedido extends Ingresso {
     public String Cliente;
-    public List <Ingresso> ListaIngressos = new ArrayList<Ingresso>();
+    public List<Ingresso> ListaIngressos = new ArrayList<Ingresso>();
 
-    public double ValorPedido()
-    {return getValor()*getNumeroIngresso();}
-
+    public double ValorPedido() {
+//        double valorPedido = 0;
+//        for (int i = 0; i < ListaIngressos.size();i++)
+//        {
+//            Integer ing = (Ingresso) ListaIngressos.get(i);
+//
+//
+//        }
+    }
+    return super.getValor()*getNumeroIngresso();
 }
