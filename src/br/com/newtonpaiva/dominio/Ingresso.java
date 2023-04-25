@@ -1,27 +1,40 @@
 package br.com.newtonpaiva.dominio;
-
 public class Ingresso
 {
-    public String nomeJogo;
-    public Double valor;
+    private String nomeDoJogo;
+    private double valor;
+    private Integer quantidade;
 
-    public Double getValor()
-    {return valor;}
+    public Ingresso()
+    {}
+    public Ingresso(String nomeDoJogo, Double valor, Integer quantidade)
+    {
+        this.nomeDoJogo = nomeDoJogo;
+        this.valor = valor;
+        this.quantidade = quantidade;
+    }
 
-    public void setValor(Double valor)
-    {this.valor = valor;}
+    public String getNomeDoJogo() {
+        return nomeDoJogo;
+    }
 
-    public Integer numeroIngresso;
+    public void setNomeDoJogo(String nomeDoJogo) {
+        this.nomeDoJogo = nomeDoJogo;
+    }
 
-    public Integer getNumeroIngresso()
-    {return numeroIngresso;}
+    public Double getValor() {
+        return valor;
+    }
 
-    public void setNumeroIngresso(Integer numeroIngresso)
-    {this.numeroIngresso = numeroIngresso;}
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
 
-    public String getNomeJogo()
-    {return nomeJogo;}
+    public Integer getQuantidade() {
+        return quantidade;
+    }
 
-    public void setNomeJogo(String nomeJogo)
-    {this.nomeJogo = nomeJogo;}
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
 }

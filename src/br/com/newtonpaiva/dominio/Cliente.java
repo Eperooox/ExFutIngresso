@@ -2,13 +2,19 @@ package br.com.newtonpaiva.dominio;
 
 public class Cliente
 {
-    public String Nome;
+    private String nome;
 
-    public String getNome()
-    {return Nome;}
+    public Cliente() {
+    }
+    public Cliente(String nome) {
+        this.nome = nome;
+    }
 
-    public void setNome(String nome)
-    {Nome = nome;}
+    public String getNome() {
+        return nome;
+    }
 
-
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }
